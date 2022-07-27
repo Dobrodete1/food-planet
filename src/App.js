@@ -2,13 +2,16 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Content from './components/Content/Content';
+import Price from './components/NewPrice/Price';
 
 function App() {
-  return (
+  return (<>
+  <Header/>
     <div className="App">
-      <Header/>
       <Content/>
+      <Price/>
     </div>
+    </>
   );
 }
 
