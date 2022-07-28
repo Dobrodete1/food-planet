@@ -1,0 +1,22 @@
+.w_me{
+    margin-left: 150px;
+    color: #254F4C;
+}
+.ques_profile{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 32px;
+}
+.ques_list{
+    width: 240px;
+    text-align: center;
+}
+.ques_list h4{
+    font-size: 20px;
+    color: #254F4C;
+}
+.ques_list p{
+    font-size: 14px;
+    color: #1D3130;
+}
