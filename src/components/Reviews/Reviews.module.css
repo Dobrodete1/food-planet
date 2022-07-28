@@ -1,0 +1,24 @@
+.reviews h2{
+    margin-left: 150px;
+    color: #254F4C;
+}
+.review_desc{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+}
+.review_list{
+    width: 240px;
+    text-align: center;
+}
+.review_list h3{
+    color: #3B7976;
+}
+.p_desc {
+    color: #061817;
+}
+.p_date{
+    color: #3B7976;
+    font-size: 14px;
+}
