@@ -1,0 +1,35 @@
+.priceName{
+    display: flex;
+    gap: 16px;
+}
+.priceName h3{
+    margin-left: 150px;
+    padding-right: 150px;
+}
+.priceName span{
+    padding: 5px 16px;
+}
+
+.priceProduct{
+    width: 240px;
+    height: 340px;
+    text-align: center;
+    background-color: #2B4241;
+    border-radius: 35px;
+    color: #fff;
+    margin: 10px 16px;
+}
+.productPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.btnPrice{
+    width: 190px;
+    height: 40px;
+    background-color: #FF583E;
+    border-radius: 35px;
+    color: #fff;
+    border: none;
+}
