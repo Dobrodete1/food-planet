@@ -9,8 +9,12 @@
     list-style: none;
 }
 .review_list{
-    width: 240px;
+    width: 248px;
+    height: 304px;
     text-align: center;
+    background-image: url(/src/img/logo/border.svg);
+    display: flex;
+    align-items: center;
 }
 .review_list h3{
     color: #3B7976;
