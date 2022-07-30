@@ -6,6 +6,7 @@ import Price from './components/NewPrice/Price';
 import Menu from './components/Menu/Menu';
 import Questions from './components/Questions/Questions';
 import Reviews from './components/Reviews/Reviews';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (<>
@@ -17,6 +18,7 @@ function App() {
       <Questions/>
       <Reviews/>
     </div>
+    <Footer/>
     </>
   );
 }
