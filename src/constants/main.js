@@ -1,6 +1,18 @@
+import cheesbg1 from '../img/product/burger/first.png'
+import cheesbg2 from '../img/product/burger/second.png'
+import cheesbg3 from '../img/product/burger/theerth-burger.png'
+import cheesbg4 from '../img/product/burger/fouth-burger.png'
+import pizza1 from '../img/product/pizza/pizza.png'
+import pizza2 from '../img/product/pizza/pizza2.png'
+import delivery from '../img/logo/delivery.svg'
+import salad from '../img/logo/salad.svg'
+import menu from '../img/logo/menu.svg'
+import location from '../img/logo/location.svg'
+
+
 export const priceBurger = [
     {
-        burger:'src\img\product\burger\first.png',
+        burger:[cheesbg1],
         name:'Чизбургер',
         compound:['Булка,','котлета,','сыр,','соленый огурец,','лук,','помидор,',
             'салат айсберг,','соус чесночный,','соус гриль,',
@@ -8,7 +20,7 @@ export const priceBurger = [
         price:'200 сом',
     },
     {
-        burger:'src\img\product\burger\second.png',
+        burger:[cheesbg2],
         name:'Чизбургер',
         compound:['Булка,','котлета,','сыр,','соленый огурец,','лук,','помидор,',
             'салат айсберг,','соус чесночный,','соус гриль,',
@@ -16,7 +28,7 @@ export const priceBurger = [
         price:'200 сом',
     },
     {
-        burger:'src\img\product\burger\theerth-burger.png',
+        burger:[cheesbg3],
         name:'Чизбургер',
         compound:['Булка,','котлета,','сыр,','соленый огурец,','лук,','помидор,',
             'салат айсберг,','соус чесночный,','соус гриль,',
@@ -24,7 +36,7 @@ export const priceBurger = [
         price:'200 сом',
     },
     {
-        burger:'src\img\product\burger\fouth-burger.png',
+        burger:[cheesbg4],
         name:'Чизбургер',
         compound:['Булка,','котлета,','сыр,','соленый огурец,','лук,','помидор,',
             'салат айсберг,','соус чесночный,','соус гриль,',
@@ -35,56 +47,56 @@ export const priceBurger = [
 
 export const pricePizza = [
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza1],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
         price: '200 com'
     },
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza2],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
         price: '200 com'
     },
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza1],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
         price: '200 com'
     },
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza2],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
         price: '200 com'
     },
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza1],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
         price: '200 com'
     },
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza2],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
         price: '200 com'
     },
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza1],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
         price: '200 com'
     },
     {
-        Image:'src\img\product\pizza\pizza.png',
+        Image:[pizza2],
         name:'Мексиканская',
         compound:['Булка,',' котлета,','сыр,','соленый огурец,','лук,',' помидор,',
             'салат айсберг,','соус чесночный,',' соус гриль,','кетчуп,','майонез'],
@@ -95,22 +107,22 @@ export const pricePizza = [
 
 export const question = [
     {
-        logo:'../img/logo/delivery.svg',
+        logo:[delivery],
         theme:'Мгновенная доставка',
         desc:'Доставим заказанную вами еду за 30 минут + напиток в подарок'
     },
     {
-        logo:'../img/logo/salad.svg',
+        logo:[salad],
         theme:'Свежие продукты',
         desc:'Вся продукция хранится в хороших условиях тем самым продливая срок хранения'
     },
     {
-        logo:'../img/logo/menu.svg',
+        logo:[menu],
         theme:'Уникальное меню',
         desc:'Ежедневно мы обновляем наше меню и том числе коктейльное'
     },
     {
-        logo:'../img/logo/location.svg',
+        logo:[location],
         theme:'Доставка',
         desc:'Мы быстро доставляем вашу еду по указанному адресу'
     },
