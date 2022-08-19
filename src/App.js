@@ -1,35 +1,23 @@
-import React from 'react';
-import {BrowserRouter,Route, Routes} from 'react-router-dom';
-import './App.css';
-import Header from './components/Header/Header';
-import Content from './components/Content/Content';
-import Price from './components/NewPrice/Price';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Content from "./components/Content/Content";
+import Footer from "./components/Footer/Footer";
 import Menu from './components/Menu/Menu';
-import Questions from './components/Questions/Questions';
-import Reviews from './components/Reviews/Reviews';
-import Footer from './components/Footer/Footer';
+import { Delivery } from "./page/Delivery/Delivery";
 
 function App() {
   return (
     <>
-      <Header />
       <BrowserRouter>
-        <Routes className="App">
+        <Header />
+        <Routes>
           <Route path="/" element={<Content />} />
-          <Route path="/price" element={<Price />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/questions" element={<Questions />} />
-          <Route path="/reviews" element={<Reviews />} />
+          <Route path='/menu' element={<Menu />} />
+          <Route path='/delivery' element={<Delivery/>} />
         </Routes>
       </BrowserRouter>
-
-      {/* <div >
-      <Content/>
-      <Price/>
-      <Menu/>
-      <Questions/>
-      <Reviews/>
-    </div> */}
       <Footer />
     </>
   );
