@@ -7,7 +7,7 @@
     padding-right: 175px;
 }
 .Content span{
-    padding: 5px 16px;
+    padding: 40px 16px;
 }
 .menu_info{
     display: flex;
@@ -23,7 +23,7 @@
 }
 .product_price{
     width: 240px;
-    height: 340px;
+    height: 360px;
     text-align: center;
     background-color: #fff;
     border-radius: 35px;
