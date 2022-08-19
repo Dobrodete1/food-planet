@@ -16,7 +16,7 @@ const Header = () => {
         <li><Link to="/">Главная</Link></li>
         <li><Link to="/menu" >Меню<img src={arrow} alt="" /></Link></li>
         <li><Link to='/delivery'>Доставка</Link></li>
-        <li><a href="#">Контакты</a></li>
+        <li><Link to="/contacts">Контакты</Link></li>
         <li><a href="#"><img src={phone} alt="" />+996500405988</a></li>
         <li><a href="#"><img src={korzina} alt="" /> 1</a></li>
       </ul>
