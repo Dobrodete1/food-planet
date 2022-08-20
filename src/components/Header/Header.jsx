@@ -5,7 +5,6 @@ import phone from '../../img/logo/phone.svg'
 import korzina from '../../img/logo/korzina.svg'
 import arrow from '../../img/logo/arrow.svg'
 import {Link,Outlet,Route, Routes} from 'react-router-dom';
-import {Delivery} from '../../page/Delivery/Delivery.jsx'
 
 const Header = () => {
   return (
