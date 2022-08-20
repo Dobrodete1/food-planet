@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Price.module.css';
 import { priceBurger } from '../../constants/main.js';
 import StatePrice from './StatePrice';
+import { Link } from 'react-router-dom';
 
 const Price = () => {
     return (
